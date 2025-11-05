@@ -358,7 +358,7 @@ def create_app(args):
         + "\n\n[View ReDoc documentation](/redoc)"
     )
     app_kwargs = {
-        "title": "LightRAG Server API",
+        "title": "Server API",
         "description": swagger_description,
         "version": __api_version__,
         "openapi_url": "/openapi.json",  # Explicitly set OpenAPI schema URL

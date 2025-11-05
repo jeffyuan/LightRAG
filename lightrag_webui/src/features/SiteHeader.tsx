@@ -125,11 +125,11 @@ export default function SiteHeader() {
               </Tooltip>
             </TooltipProvider>
           )}
-          <Button variant="ghost" size="icon" side="bottom" tooltip={t('header.projectRepository')}>
+          {/* <Button variant="ghost" size="icon" side="bottom" tooltip={t('header.projectRepository')}>
             <a href={SiteInfo.github} target="_blank" rel="noopener noreferrer">
               <GithubIcon className="size-4" aria-hidden="true" />
             </a>
-          </Button>
+          </Button> */}
           <AppSettings />
           {!isGuestMode && (
             <Button
